@@ -132,3 +132,9 @@ body{
 .show-winning-message {
     display: flex;
 }
+
+@media (max-width: 720px) {
+    .winning-message-text {
+        font-size: 3.5rem;
+    }
+}
